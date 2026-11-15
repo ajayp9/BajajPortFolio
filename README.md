@@ -21,8 +21,3 @@ Responsive product portfolio showcase built with HTML5, CSS3 and vanilla JavaScr
 - Back-to-top button
 - Keyboard support and reduced-motion support
 
-## Run
-Extract the ZIP, open the folder in VS Code, and run `index.html` using Live Server.
-
-## Important
-Independent educational demonstration; not an official Bajaj Finance website. Product information is general and must be checked against current official product documents.
