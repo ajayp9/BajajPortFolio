@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#07172b" />
+    <title>Bajaj Finance | Product Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      BAJAJ FINANCE <span>FINANCIAL POSSIBILITIES FOR EVERY TOMORROW</span>
+    </div>
+    <header>
+      <a class="logo" href="#home"
+        ><b>B</b
+        ><span
+          >BAJAJ <strong>FINANCE</strong><small>PRODUCT PORTFOLIO</small></span
+        ></a
+      >
+      <button id="menu" aria-label="Toggle menu">☰</button>
+      <nav id="nav">
+        <a href="#products">Products</a><a href="#journey">Our approach</a
+        ><a href="#highlights">Highlights</a
+        ><a class="navbtn" href="#products">Explore ↗</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="gridbg"></div>
+        <div class="heroText reveal">
+          <label>✦ &nbsp; FINANCIAL POSSIBILITIES, MADE SIMPLE</label>
+          <h1>Make room<br />for <em>what's next.</em></h1>
+          <p>
+            Explore a portfolio of financial products designed around everyday
+            goals — from managing expenses to building long-term plans.
+          </p>
+          <a class="btn red" href="#products">Explore products ↓</a>
+        </div>
+        <div class="art">
+          <div class="ring r1"></div>
+          <div class="ring r2"></div>
+          <div class="heroCard">
+            <small>BAJAJ FINANCE · YOUR JOURNEY</small
+            ><b>Possibility<br /><em>starts here.</em></b>
+            <footer>PLAN &nbsp; · &nbsp; BUILD &nbsp; · &nbsp; GROW</footer>
+          </div>
+          <div class="float f1">✦ Flexible choices</div>
+          <div class="float f2">↗ Goals made closer</div>
+        </div>
+        <div class="scroll">
+          01 — PRODUCT PORTFOLIO <span>SCROLL TO EXPLORE ↓</span>
+        </div>
+      </section>
+      <section class="stats" id="journey">
+        <div>
+          <b>01</b><span>Everyday<br />convenience</span>
+        </div>
+        <div>
+          <b>02</b><span>Flexible<br />financing</span>
+        </div>
+        <div>
+          <b>03</b><span>Future-focused<br />planning</span>
+        </div>
+        <div>
+          <b>04</b><span>Digital-first<br />experiences</span>
+        </div>
+      </section>
+      <section class="products section" id="products">
+        <div class="heading reveal">
+          <div>
+            <label class="dark">✦ &nbsp; 02 / PRODUCT PORTFOLIO</label>
+            <h2>One portfolio.<br /><em>Many possibilities.</em></h2>
+          </div>
+          <p>
+            Explore six product categories. Filter by need or select a card to
+            see a short overview.
+          </p>
+        </div>
+        <div class="filters">
+          <button class="active" data-filter="all">
+            All products <b>06</b></button
+          ><button data-filter="borrow">Borrow</button
+          ><button data-filter="save">Save & invest</button
+          ><button data-filter="spend">Spend</button
+          ><button data-filter="protect">Protect</button>
+        </div>
+        <div class="cards">
+          <article class="card reveal" data-category="borrow">
+            <div class="visual loan"><span>BORROW</span><b>₹</b></div>
+            <div class="info">
+              <small>01 / CREDIT</small>
+              <h3>Personal Loan</h3>
+              <p>
+                Explore financing for planned expenses, milestones and
+                unexpected needs.
+              </p>
+              <button data-product="personal">Explore product →</button>
+            </div>
+          </article>
+          <article class="card reveal" data-category="borrow">
+            <div class="visual home">
+              <span>BORROW</span><b class="house">⌂</b>
+            </div>
+            <div class="info">
+              <small>02 / HOME</small>
+              <h3>Home Loan</h3>
+              <p>
+                Discover home-financing options for purchasing, constructing or
+                improving a home.
+              </p>
+              <button data-product="home">Explore product →</button>
+            </div>
+          </article>
+          <article class="card reveal" data-category="borrow">
+            <div class="visual business">
+              <span>BORROW</span><b class="bars">▂ ▅ ▇</b>
+            </div>
+            <div class="info">
+              <small>03 / BUSINESS</small>
+              <h3>Business Loan</h3>
+              <p>
+                Explore funding options that may support working capital and
+                business growth.
+              </p>
+              <button data-product="business">Explore product →</button>
+            </div>
+          </article>
+          <article class="card reveal" data-category="save">
+            <div class="visual fd"><span>SAVE & INVEST</span><b>◉</b></div>
+            <div class="info">
+              <small>04 / SAVINGS</small>
+              <h3>Fixed Deposit</h3>
+              <p>
+                Learn about fixed-term deposit options for planned savings and
+                goals.
+              </p>
+              <button data-product="fd">Explore product →</button>
+            </div>
+          </article>
+          <article class="card reveal" data-category="spend">
+            <div class="visual emi">
+              <span>SPEND</span><b class="emiCard">B+<small>EMI</small></b>
+            </div>
+            <div class="info">
+              <small>05 / PURCHASES</small>
+              <h3>EMI Network Card</h3>
+              <p>
+                Explore instalment-based payment options for eligible purchases.
+              </p>
+              <button data-product="emi">Explore product →</button>
+            </div>
+          </article>
+          <article class="card reveal" data-category="protect">
+            <div class="visual insurance"><span>PROTECT</span><b>♢</b></div>
+            <div class="info">
+              <small>06 / COVER</small>
+              <h3>Insurance</h3>
+              <p>
+                Understand protection solutions that may help manage selected
+                financial risks.
+              </p>
+              <button data-product="insurance">Explore product →</button>
+            </div>
+          </article>
+        </div>
+        <p class="disclaimer">
+          Educational portfolio demonstration only; not an official Bajaj
+          Finance website. Product features, eligibility, rates, fees and terms
+          may change. Refer to official product documents for current
+          information.
+        </p>
+      </section>
+      <section class="feature" id="highlights">
+        <div class="featureText reveal">
+          <label>✦ &nbsp; 03 / DESIGNED AROUND GOALS</label>
+          <h2>Different needs.<br /><em>One place to explore.</em></h2>
+          <p>
+            Whether planning a purchase, growing a business, saving for a
+            milestone or thinking about protection, a good financial choice
+            starts with understanding the options.
+          </p>
+          <a class="btn white" href="#products">View all products ↓</a>
+        </div>
+        <div class="stack">
+          <div class="paper p1">PLAN<br /><b>Tomorrow</b></div>
+          <div class="paper p2">BUILD<br /><b>Possibility</b></div>
+          <div class="paper p3">MOVE<br /><b>Forward.</b></div>
+        </div>
+      </section>
+      <section class="steps section">
+        <label class="dark">✦ &nbsp; 04 / A SIMPLE JOURNEY</label>
+        <h2>Explore. Compare.<br /><em>Choose thoughtfully.</em></h2>
+        <div class="stepGrid">
+          <div>
+            <b>01</b>
+            <h3>Explore</h3>
+            <p>Understand product categories and the needs they may address.</p>
+          </div>
+          <div>
+            <b>02</b>
+            <h3>Compare</h3>
+            <p>Review official features, eligibility, charges and terms.</p>
+          </div>
+          <div>
+            <b>03</b>
+            <h3>Decide</h3>
+            <p>Choose an option that fits your requirements and situation.</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <label>✦ &nbsp; 05 / THE NEXT STEP</label>
+        <h2>Your next goal<br />starts with a <em>question.</em></h2>
+        <p>
+          Explore the portfolio, understand the details and make informed
+          financial decisions.
+        </p>
+        <a class="btn red" href="#products">Back to products ↑</a>
+      </section>
+    </main>
+    <footer>
+      <a class="logo" href="#home"
+        ><b>B</b
+        ><span
+          >BAJAJ <strong>FINANCE</strong><small>PRODUCT PORTFOLIO</small></span
+        ></a
+      ><span
+        >INDEPENDENT LEARNING PROJECT · NOT AN OFFICIAL COMPANY WEBSITE</span
+      ><span>© <i id="year"></i></span>
+    </footer>
+    <div class="modal" id="modal">
+      <div class="shade" data-close></div>
+      <div class="dialog">
+        <button class="x" data-close>×</button
+        ><small id="kicker">PRODUCT OVERVIEW</small>
+        <h2 id="title"></h2>
+        <p id="desc"></p>
+        <aside>
+          For current features, eligibility, rates, fees and terms, refer to
+          official Bajaj Finance product documents.
+        </aside>
+        <button class="btn red" data-close>Close ×</button>
+      </div>
+    </div>
+    <button id="topBtn" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
